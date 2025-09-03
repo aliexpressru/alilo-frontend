@@ -1,0 +1,77 @@
+.badge {
+	width: fit-content;
+	border-radius: 8px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.prepared {
+	background-color: #CCFF6680;
+	color: #90CB2E;
+}
+
+.running {
+	background-color: #CCFF66;
+	color: #1D1D1D;
+}
+
+.stopping {
+	background-color: #F3F4F6;
+	color: #A6A5A8;
+}
+
+.stopped {
+	background-color: #A6A5A84D;
+	color: #1D1D1D;
+}
+
+.badge-light {}
+
+.prepared-light-bc {
+	background-color: #90CB2ECC;
+}
+
+.prepared-light-c {
+	color: #90CB2ECC !important;
+}
+
+.running-light-bc {
+	background-color: #77B278;
+}
+
+.running-light-c {
+	color: #77B278 !important;
+}
+
+.stopped-light-bc {
+	background-color: #1D1D1D;
+}
+
+.stopped-light-c {
+	color: #1D1D1D !important;
+}
+
+.stopping-light-bc {
+	background-color: #A6A5A8;
+}
+
+.stopping-light-c {
+	color: #A6A5A8 !important;
+}
+
+.failed-light-bc {
+	background-color: #E81711;
+}
+
+.failed-light-c {
+	color: #E81711 !important;
+}
+
+.dot {
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	display: inline-block;
+}

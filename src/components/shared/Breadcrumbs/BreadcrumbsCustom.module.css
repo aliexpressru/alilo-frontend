@@ -1,0 +1,12 @@
+.breadcrumbs-custom {
+	margin-bottom: 10px;
+
+	span {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	a {
+		color: #615E69 !important;
+	}
+}

@@ -1,0 +1,13 @@
+.text-field {
+	border: 1px solid #CDD5DF;
+	background-color: #FFFFFF;
+	border-radius: 6px;
+	padding: 6px;
+	min-width: 160px;
+	width: 100%;
+
+	label {
+		font-size: 12px !important;
+		color: #2222227A !important;
+	}
+}

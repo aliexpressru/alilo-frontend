@@ -1,0 +1,28 @@
+.root {
+    position: relative;
+}
+
+.input {
+    border: 1px solid #CDD5DF;
+    padding-left: 10px;
+    padding-top: 15px;
+    background-color: var(--mantine-color-body);
+}
+
+.label {
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    top: 14px;
+    left: 10px;
+    color: var(--mantine-color-placeholder);
+    font-weight: 400;
+    font-size: var(--mantine-font-size-xl);
+    transition: color 100ms ease, transform 100ms ease, font-size 100ms ease;
+
+    &[data-floating] {
+        transform: translateY(-8px);
+        font-size: var(--mantine-font-size-xs);
+        color: rgba(34, 34, 34, 0.4784313725);
+    }
+}

@@ -1,0 +1,30 @@
+.modal div[data-type='layout'] {
+    border: 2px solid #000;
+    border-radius: 24px;
+}
+
+.export-button {
+    background-color: #C2FD60;
+    color: var(--mantine-color-black);
+    margin-left: 5px;
+    margin-bottom: 10px;
+    min-height: 50px;
+    border-radius: 8px;
+}
+
+.export-button:hover {
+    background-color: #a2d352;
+    color: var(--mantine-color-black);
+}
+
+.export-button:disabled {
+    cursor: not-allowed;
+    background-color: #f3f4f67c;
+    color: #1d1d1d35;
+}
+
+.export-button:disabled label {
+    cursor: not-allowed;
+    background-color: #f3f4f67c;
+    color: #1d1d1d35;
+}

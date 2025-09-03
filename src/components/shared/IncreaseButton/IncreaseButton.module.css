@@ -1,0 +1,36 @@
+.dialog {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 14px;
+}
+
+.elements {
+    background: #f3f4f6;
+    height: 48px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+
+    input {
+        border: none;
+        background: transparent !important;
+        width: 100%;
+        font-size: 28px !important;
+        text-align: center;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+}
+
+.minus-button, .plus-button {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}

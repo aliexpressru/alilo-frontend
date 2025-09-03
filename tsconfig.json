@@ -1,0 +1,17 @@
+{
+  // "compilerOptions": {
+  //   "noUnusedLocals": false
+  // },
+  "include": [
+    "src",
+    "typescript/typings"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ],
+  "extends": [
+    "./typescript/tsconfig.paths.json",
+    "./typescript/tsconfig.base.json"
+  ]
+}

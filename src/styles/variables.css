@@ -1,0 +1,18 @@
+:root {
+	--grey-bg: #f3f4f6;
+}
+
+.theme-alilo {
+	--primary-color: #cc290a;
+	--primary-color-hover: #bb2406;
+	--primary-color-active: #ad2106;
+	--secondary-color: #e4e4e4;
+	--secondary-color-hover: #d8d8d8;
+	--secondary-color-active: #d0d0d0;
+	--button-contained-secondary-text-color: #000;
+	--light-color: #ffffff;
+	--border-radius-stylebox-semiround: 8px;
+	--dark-color: #000000;
+	--grey-color: #f3f4f6;
+	--table-border-radius: 8px;
+}

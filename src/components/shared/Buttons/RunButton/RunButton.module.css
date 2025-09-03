@@ -1,0 +1,95 @@
+.loader {
+	margin-top: 3px;
+}
+
+.control-button {
+	background-color: #f3f4f6 !important;
+	border: 0px;
+	color: #1d1d1d;
+	width: fit-content;
+	height: 46px;
+	border-radius: 6px !important;
+	cursor: pointer;
+
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+
+	text {
+		cursor: pointer;
+
+		img {
+			margin-top: 5px;
+		}
+	}
+}
+
+.control-button:disabled {
+	label {
+		cursor: not-allowed;
+		background-color: #f3f4f67c;
+		color: #1d1d1d35;
+	}
+}
+
+.control-button:active:enabled {
+	background-color: #E3E3E3 !important;
+
+}
+
+.minus-button {
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+}
+
+.plus-button {
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+}
+
+.dialog {
+	width: 300px;
+	background-color: #FFFFFF;
+	border-radius: 8px;
+	border: none !important;
+
+	padding-top: 14px;
+	padding-left: 14px;
+	padding-right: 14px;
+	padding-bottom: 14px;
+
+	label {
+		font-size: 18px !important;
+	}
+}
+
+.elements {
+	background-color: #F3F4F6;
+	height: 48px;
+	border-radius: 6px;
+
+	div {
+		background: transparent;
+		border: none;
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+
+		input {
+			border: none;
+			background-color: none !important;
+
+			width: 100%;
+			font-size: 28px !important;
+		}
+
+		input::-webkit-outer-spin-button,
+		input::-webkit-inner-spin-button {
+			-webkit-appearance: none;
+			margin: 0;
+		}
+
+		input[type=number] {
+			-moz-appearance: textfield;
+		}
+	}
+
+}

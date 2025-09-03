@@ -1,0 +1,6 @@
+config
+public
+**/*.js
+**/*.json
+**/*.md
+**/*.d.ts

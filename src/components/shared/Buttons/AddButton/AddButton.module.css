@@ -1,0 +1,13 @@
+.addButton {
+	background-color: var(--mantine-color-gray-1);
+	color: var(--mantine-color-black);
+	margin-left: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	min-height: 50px;
+	border-radius: 8px;
+}
+
+.addButton:hover {
+	background-color: #f0f0f0;
+}

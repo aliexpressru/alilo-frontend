@@ -1,0 +1,32 @@
+.stop-button {
+	width: 91px;
+	height: 50px;
+	border-radius: 8px !important;
+	background-color: #D63426 !important;
+	border: 0px;
+	cursor: pointer;
+
+	label {
+		cursor: pointer;
+	}
+
+	span {
+		svg {
+			margin-top: 5px !important;
+		}
+	}
+}
+
+.stop-button:active {
+	background-color: #c22d20 !important;
+}
+
+.stop-button:disabled {
+	background-color: #E3E3E3 !important;
+
+	span {
+		svg {
+			filter: invert(60%);
+		}
+	}
+}

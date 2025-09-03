@@ -1,0 +1,16 @@
+.icon-button {
+	--ai-bg: transparent !important;
+	background-color: unset !important;
+	cursor: pointer !important;
+	padding: 0 !important;
+	margin-top: 7px;
+}
+
+.icon-button.reset-bg {
+	--ai-bg: transparent;
+}
+
+.icon {
+	--ai-bg: transparent !important;
+	border: 0;
+}

@@ -1,0 +1,3 @@
+.run-description {
+	grid-template-columns: repeat(2, minmax(200px, min-content));
+}

@@ -1,0 +1,15 @@
+.new_button {
+	background-color: #F3F4F6 !important;
+	border: 0px;
+	color: #1d1d1d;
+	width: 66px;
+	height: 48px;
+	border-radius: 8px;
+}
+
+.content_frame {
+	background-color: #ffffff;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	padding: 1.5rem;
+}

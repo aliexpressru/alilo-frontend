@@ -1,0 +1,40 @@
+.root {
+    position: relative;
+    padding-top: 16px;
+}
+
+.input {
+    border: 1px solid #CDD5DF;
+    padding-left: 10px;
+    padding-top: 15px;
+    background-color: var(--mantine-color-body);
+    height: 50px;
+    min-width: 120px;
+}
+
+.label {
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    top: 30px;
+    left: 10px;
+    color: var(--mantine-color-placeholder);
+    font-weight: 400;
+    font-size: var(--mantine-font-size-xl);
+    transition: color 100ms ease, transform 100ms ease, font-size 100ms ease;
+
+    &[data-floating] {
+        transform: translateY(-8px);
+        font-size: var(--mantine-font-size-xs);
+        color: rgba(34, 34, 34, 0.4784313725);
+    }
+}
+
+.option {
+    height: 2.5rem;
+}
+
+/* Target the dropdown options */
+.dropdown {
+    border-radius: 8px; /* Adjust the radius as needed */
+}

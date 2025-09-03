@@ -1,0 +1,21 @@
+.header {
+	justify-content: space-between;
+	cursor: pointer;
+}
+
+.box {
+	background-color: #FFFFFF;
+	padding: 20px;
+}
+
+.header-close {
+	color: #3E7FFD !important;
+}
+
+.header-open {
+	color: #202939 !important;
+}
+
+.custom-divider {
+	padding: 0;
+}

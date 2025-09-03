@@ -1,0 +1,36 @@
+.http-select {
+    height: 48px;
+
+    div {
+        height: inherit;
+
+        div {
+            border-radius: 8px;
+            border: none !important;
+
+            div {
+                input {
+                    color: aliceblue;
+                    font-size: medium;
+                    padding-left: 1rem;
+                }
+            }
+        }
+    }
+}
+
+.http-select-get {
+    div {
+        div {
+            background-color: #3E7FFD;
+        }
+    }
+}
+
+.http-select-post {
+    div {
+        div {
+            background-color: #9455FF;
+        }
+    }
+}

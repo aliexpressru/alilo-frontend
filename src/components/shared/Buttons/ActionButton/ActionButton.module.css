@@ -1,0 +1,22 @@
+.action-button {
+    width: 91px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #C2FD60;
+    border: 0px;
+    cursor: pointer;
+}
+
+.action-button:disabled {
+    background-color: rgba(214, 214, 217, 0.49) !important;
+    color: #1d1d1d35;
+    cursor: not-allowed;
+}
+
+.action-button:active:not(:disabled) {
+    background-color: #B8F05B;
+}
+
+.action-button:hover {
+    background-color: #B0EB50;
+}

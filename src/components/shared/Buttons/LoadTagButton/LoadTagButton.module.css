@@ -1,0 +1,33 @@
+.control-button {
+	background-color: #f3f4f6 !important;
+	border: 0px;
+	color: #1d1d1d;
+	width: fit-content;
+	height: 48px;
+	border-radius: 6px !important;
+	cursor: pointer;
+
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+
+	text {
+		cursor: pointer;
+
+		img {
+			margin-top: 5px;
+		}
+	}
+}
+
+.control-button:disabled {
+	label {
+		cursor: not-allowed;
+		background-color: #f3f4f67c;
+		color: #1d1d1d35;
+	}
+}
+
+.control-button:active:enabled {
+	background-color: #E3E3E3 !important;
+
+}

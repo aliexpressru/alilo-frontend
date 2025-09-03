@@ -1,0 +1,107 @@
+.control-button {
+	background-color: #f3f4f6 !important;
+	border: 0px;
+	color: #1d1d1d;
+	width: fit-content;
+	height: 48px;
+	border-radius: 6px !important;
+	cursor: pointer;
+
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+
+	text {
+		cursor: pointer;
+
+		img {
+			margin-top: 5px;
+		}
+	}
+}
+
+.control-button:disabled {
+	label {
+		cursor: not-allowed;
+		background-color: #f3f4f67c;
+		color: #1d1d1d35;
+	}
+}
+
+.control-button:active:enabled {
+	background-color: #E3E3E3 !important;
+
+}
+
+.value-button {
+	display: inline-block;
+	border: 1px solid #ddd;
+	margin: 0px;
+	width: 40px;
+	height: 36px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 11px 0;
+	background: #eee;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.value-button:hover {
+	cursor: pointer;
+}
+
+.dialog {
+	width: 300px;
+	background-color: #FFFFFF;
+	border-radius: 8px;
+	border: none !important;
+	box-shadow: rgba(0, 0, 0, 0.1) 1px 4px 6px -1px, rgba(0, 0, 0, 0.06) 1px 2px 4px -1px;
+
+	padding-top: 14px;
+	padding-left: 14px;
+	padding-right: 14px;
+	padding-bottom: 0px !important;
+
+	label {
+		font-size: 18px !important;
+	}
+}
+
+.elements {
+	background: #f3f4f6;
+	height: 48px;
+	border-radius: 6px;
+
+	div {
+		background: transparent;
+		border: none;
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+
+		input {
+			border: none;
+			background-color: none !important;
+
+			width: 100%;
+			font-size: 28px !important;
+		}
+
+		input::-webkit-outer-spin-button,
+		input::-webkit-inner-spin-button {
+			-webkit-appearance: none;
+			margin: 0;
+		}
+
+		input[type=number] {
+			-moz-appearance: textfield;
+		}
+	}
+}
+
+.popupButtonsControl {
+	width: 50%;
+}

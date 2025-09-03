@@ -1,0 +1,53 @@
+.custom-modal {
+	main {
+		padding: 0;
+	}
+
+	border-radius: 6px;
+}
+
+.close-button {
+	opacity: 0.5;
+	cursor: pointer;
+	transition: 250ms ease-out;
+}
+
+.close-button:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.left-side {
+	padding: 10px;
+	height: 600px;
+	overflow: scroll;
+}
+
+.right-side {
+	padding: 10px;
+	width: 720px;
+	height: 600px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	background-color: #F3F4F6;
+	overflow: unset;
+}
+
+.custom-divider {
+	margin-bottom: -20px;
+}
+
+.items-button {
+	border: none;
+	cursor: pointer;
+	padding: 20px 10px 20px 10px;
+}
+
+.selected {
+	background-color: #F3F4F6 !important;
+	border-radius: 8px;
+}
+
+.heading-name {
+	word-break: break-all;
+}
