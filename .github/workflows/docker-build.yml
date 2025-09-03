@@ -69,8 +69,10 @@ jobs:
           DEPLOY_ENV=${{ github.event.inputs.deploy_env || 'production' }}
         cache-from: type=gha
         cache-to: type=gha,mode=max
-        platforms: linux/amd64,linux/arm64
+        platforms: linux/amd64
         outputs: type=image,compression=gzip,compression-level=6,force-compression=true
+        provenance: false
+        sbom: false
 
     - name: Output image info
       run: |
